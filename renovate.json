@@ -1,0 +1,10 @@
+{
+	"extends": ["config:base", ":preserveSemverRanges"],
+	"baseBranches": ["develop"],
+	"packageRules": [
+		{
+			"packagePatterns": ["^@cauriland", "^@caurihub"],
+			"groupName": "cauri and caurihub packages"
+		}
+	]
+}
