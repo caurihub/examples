@@ -1,0 +1,16 @@
+version: "2"
+services:
+    postgres:
+        image: "postgres:alpine"
+        container_name: cauri-devnet-postgres
+        ports:
+            - "127.0.0.1:5432:5432"
+        volumes:
+            - "postgres:/var/lib/postgresql/data"
+        environment:
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: cauri_devnet
+            POSTGRES_USER: cauri
+
+volumes:
+    postgres:
