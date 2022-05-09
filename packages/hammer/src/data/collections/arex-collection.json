@@ -1,0 +1,102 @@
+{
+	"name": "AREX Defense Handguns",
+	"description": "AREX weapons sales",
+	"maximumSupply": 10000,
+	"jsonSchema": {
+		"type": "object",
+		"additionalProperties": false,
+		"required": ["name", "description", "serialNumber", "caliber", "length", "height", "width", "barrelLength"],
+		"properties": {
+			"name": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"description": {
+				"type": "string",
+				"maxLength": 3000,
+				"minLength": 1
+			},
+			"serialNumber": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"caliber": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"length": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"height": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"width": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"barrelLength": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"weight": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"weightWithMag": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"frameColors": {
+				"type": "string",
+				"maxLength": 255,
+				"minLength": 1
+			},
+			"slide": {
+				"type": "string",
+				"maxLength": 255,
+				"minLength": 1
+			},
+			"slights": {
+				"type": "string",
+				"maxLength": 255,
+				"minLength": 1
+			},
+			"frame": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"firingPinSafety": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"triggerSafety": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"ambidextrousManualSafety": {
+				"type": "string",
+				"maxLength": 40,
+				"minLength": 1
+			},
+			"ipfsImageHash": {
+				"type": "string",
+				"maxLength": 255,
+				"minLength": 1
+			}
+		}
+	}
+}

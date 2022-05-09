@@ -1,0 +1,49 @@
+{
+	"name": "Josip Ilicic",
+	"nation": "Slovenia",
+	"league": "Serie A TIM",
+	"club": "Atalanta",
+	"stats": {
+		"physical": {
+			"acceleration": 71,
+			"sprintSpeed": 69,
+			"agility": 71,
+			"balance": 66,
+			"jumping": 34,
+			"stamina": 69,
+			"strength": 74,
+			"reactions": 84
+		},
+		"mental": {
+			"aggression": 58,
+			"interceptions": 46,
+			"attackPos": 85,
+			"vision": 87
+		},
+		"technical": {
+			"ballControl": 88,
+			"crossing": 82,
+			"dribbling": 88,
+			"finishing": 85,
+			"FKAcc": 85,
+			"headingAcc": 58,
+			"longPassing": 74,
+			"shortPassing": 86,
+			"defAwareness": 53,
+			"shotPower": 88,
+			"longShots": 89,
+			"standTackle": 32,
+			"slideTackle": 26,
+			"volleys": 83,
+			"curve": 85,
+			"penalties": 78
+		},
+		"goalkeeping": {
+			"GKDiving": 13,
+			"GKHandling": 13,
+			"GKKicking": 8,
+			"GKReflexes": 6,
+			"GKPositioning": 12
+		}
+	}
+}

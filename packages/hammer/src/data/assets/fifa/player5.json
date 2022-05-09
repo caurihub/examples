@@ -1,0 +1,49 @@
+{
+	"name": "Diego Maradona",
+	"nation": "Argentina",
+	"league": "Icons",
+	"club": "Icons",
+	"stats": {
+		"physical": {
+			"acceleration": 91,
+			"sprintSpeed": 85,
+			"agility": 89,
+			"balance": 98,
+			"jumping": 80,
+			"stamina": 75,
+			"strength": 74,
+			"reactions": 93
+		},
+		"mental": {
+			"aggression": 76,
+			"interceptions": 46,
+			"attackPos": 92,
+			"vision": 95
+		},
+		"technical": {
+			"ballControl": 95,
+			"crossing": 87,
+			"dribbling": 96,
+			"finishing": 94,
+			"FKAcc": 93,
+			"headingAcc": 67,
+			"longPassing": 87,
+			"shortPassing": 90,
+			"defAwareness": 30,
+			"shotPower": 83,
+			"longShots": 91,
+			"standTackle": 44,
+			"slideTackle": 39,
+			"volleys": 86,
+			"curve": 94,
+			"penalties": 92
+		},
+		"goalkeeping": {
+			"GKDiving": 11,
+			"GKHandling": 15,
+			"GKKicking": 7,
+			"GKReflexes": 8,
+			"GKPositioning": 14
+		}
+	}
+}

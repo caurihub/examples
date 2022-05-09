@@ -1,0 +1,61 @@
+{
+	"name": "@caurihub/sets",
+	"version": "1.0.0-beta.0",
+	"description": "Ajv schemas for usage across CauriHub NFT ecosystem",
+	"homepage": "https://docs.caurihub.com/",
+	"bugs": {
+		"url": "https://github.com/caurihub/examples/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caurihub/examples.git"
+	},
+	"keywords": [
+		"caurihub",
+		"sdk",
+		"nft",
+		"test",
+		"script",
+		"ajv"
+	],
+	"contributors": [
+    "Arsel Tindo <tindo@cauri.cm>",
+		"Žan Kovač <zan@protokol.com>"
+	],
+	"license": "CC-BY-NC-SA-4.0",
+	"files": [
+		"/dist"
+	],
+	"main": "dist/index",
+	"types": "dist/index",
+	"scripts": {
+		"build": "yarn clean && tsc",
+		"build:watch": "yarn build -w",
+		"clean": "rimraf .coverage dist tmp",
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"publish:beta": "yarn build && yarn npm publish --tag beta --access public --tolerate-republish"
+	},
+	"engines": {
+		"node": ">=10.x"
+	},
+	"devDependencies": {
+		"@caurihub/nft-base-crypto": "^1.0.3",
+		"@cauriland/crypto": "^3.2.0",
+		"@sindresorhus/tsconfig": "^2.0.0",
+		"@types/eslint": "^7.2.6",
+		"@types/jest": "^27.0.0",
+		"@types/node": "^14.14.30",
+		"@types/rimraf": "^3.0.0",
+		"ajv": "^6.12.6",
+		"eslint": "^8.0.0",
+		"jest": "^27.0.1",
+		"jest-extended": "^0.11.5",
+		"rimraf": "^3.0.2",
+		"ts-jest": "^27.0.1",
+		"typescript": "^4.4.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

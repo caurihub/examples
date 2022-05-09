@@ -1,0 +1,258 @@
+{
+	"name": "FIFA-20-PLAYERS",
+	"description": "FIFA 2020 Players",
+	"maximumSupply": 10000,
+	"jsonSchema": {
+		"type": "object",
+		"additionalProperties": false,
+		"required": ["name", "nation", "league", "club"],
+		"properties": {
+			"name": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"nation": {
+				"type": "string",
+				"maxLength": 80,
+				"minLength": 1
+			},
+			"league": {
+				"type": "string",
+				"maxLength": 255,
+				"minLength": 1
+			},
+			"club": {
+				"type": "string",
+				"maxLength": 255,
+				"minLength": 1
+			},
+			"stats": {
+				"type": "object",
+				"additionalProperties": false,
+				"required": ["physical", "mental", "technical", "goalkeeping"],
+				"properties": {
+					"physical": {
+						"type": "object",
+						"additionalProperties": false,
+						"required": [
+							"acceleration",
+							"agility",
+							"jumping",
+							"strength",
+							"sprintSpeed",
+							"balance",
+							"stamina",
+							"reactions"
+						],
+						"properties": {
+							"acceleration": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"agility": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"jumping": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"strength": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"sprintSpeed": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"balance": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"stamina": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"reactions": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							}
+						}
+					},
+					"mental": {
+						"type": "object",
+						"additionalProperties": false,
+						"required": ["aggression", "attackPos", "interceptions", "vision"],
+						"properties": {
+							"aggression": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"attackPos": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"interceptions": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"vision": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							}
+						}
+					},
+					"technical": {
+						"type": "object",
+						"additionalProperties": false,
+						"required": [
+							"ballControl",
+							"crossing",
+							"dribbling",
+							"finishing",
+							"FKAcc",
+							"headingAcc",
+							"longPassing",
+							"shortPassing",
+							"defAwareness",
+							"shotPower",
+							"longShots",
+							"standTackle",
+							"slideTackle",
+							"volleys",
+							"curve",
+							"penalties"
+						],
+						"properties": {
+							"ballControl": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"crossing": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"dribbling": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"finishing": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"FKAcc": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"headingAcc": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"longPassing": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"shortPassing": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"defAwareness": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"shotPower": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"longShots": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"standTackle": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"slideTackle": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"volleys": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"curve": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"penalties": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							}
+						}
+					},
+					"goalkeeping": {
+						"type": "object",
+						"additionalProperties": false,
+						"required": ["GKDiving", "GKHandling", "GKKicking", "GKReflexes", "GKPositioning"],
+						"properties": {
+							"GKDiving": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"GKHandling": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"GKKicking": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"GKReflexes": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							},
+							"GKPositioning": {
+								"type": "number",
+								"maximum": 100,
+								"minimum": 0
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

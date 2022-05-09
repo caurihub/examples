@@ -1,0 +1,16 @@
+{
+	"teamName": "GERMAIN RACING TEAM",
+	"description": "Germain Racing has been competing in NASCAR since 2004. The team began their career in the Truck Series and won two championships in the process with Todd Bodine behind the wheel (2006 & 2010). They started to compete full-time in the Cup Series back in 2008. They have only used three drivers in their Cup Series history: Max Papis, Casey Mears and Ty Dillon. They are still looking for their first Cup Series win as an organization.",
+	"carType": "Ford",
+	"drivers": [
+		{
+			"name": "Ty Dillon",
+			"number": 13,
+			"ipfsHashImage": "QmPC4vcoVHrwhUApn4GE1fQ6kinzRysarmyV4XdpfGRCkS"
+		}
+	],
+	"teamOwner": "Bob Germain Jr.",
+	"headquarters": "Lexington , North Carolina",
+	"website": "https://www.germainracing.com",
+	"ipfsHashImage": "QmcsRexmNLRJDSi4SmpMTrs8wCtH1PXcGLPZeECcd1uqdD"
+}

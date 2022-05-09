@@ -1,0 +1,35 @@
+{
+	"name": "Nascar driver Collection",
+	"description": "Nascar driver information collection",
+	"maximumSupply": 10000,
+	"jsonSchema": {
+		"type": "object",
+		"additionalProperties": false,
+		"required": ["name", "description", "teamName", "dateOfBirth", "carType"],
+		"properties": {
+			"name": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"description": {
+				"type": "string",
+				"maxLength": 1000,
+				"minLength": 1
+			},
+			"teamName": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"dateOfBirth": {
+				"format": "date"
+			},
+			"carType": {
+				"type": "string",
+				"maxLength": 10,
+				"minLength": 1
+			}
+		}
+	}
+}

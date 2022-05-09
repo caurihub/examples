@@ -1,0 +1,74 @@
+{
+	"name": "Nascar Team",
+	"description": "Nascar team information collection",
+	"maximumSupply": 10000,
+	"jsonSchema": {
+		"type": "object",
+		"additionalProperties": false,
+		"required": ["teamName", "description", "carType", "drivers", "teamOwner", "headquarters", "website"],
+		"properties": {
+			"teamName": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"description": {
+				"type": "string",
+				"maxLength": 1000,
+				"minLength": 1
+			},
+			"carType": {
+				"type": "string",
+				"maxLength": 20,
+				"minLength": 1
+			},
+			"drivers": {
+				"type": "array",
+				"maxItems": 4,
+				"minItems": 1,
+				"additionalItems": false,
+				"uniqueItems": true,
+				"items": {
+					"type": "object",
+					"required": ["name", "number"],
+					"properties": {
+						"name": {
+							"type": "string",
+							"maxLength": 120,
+							"minLength": 1
+						},
+						"number": {
+							"type": "number"
+						},
+						"ipfsHashImage": {
+							"type": "string",
+							"maxLength": 120,
+							"minLength": 1
+						}
+					}
+				}
+			},
+			"teamOwner": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"headquarters": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"website": {
+				"type": "string",
+				"format": "url",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"ipfsHashImage": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			}
+		}
+	}
+}

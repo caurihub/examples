@@ -1,0 +1,19 @@
+{
+	"name": "AREX DELTA",
+	"description": "THE AREX DELTA PISTOL DOES NOT CLAIM TO BE A REVOLUTIONARY BREAKTHROUGH BUT YOU WILL FIND IT REPRESENTS A DEFINITIVE EVOLUTIONARY STEP IN MODERN HANDGUN DESIGN AND MANUFACTURING. WE HAVE ACHIEVED IMPROVEMENTS OVER SOME OF THE MOST POPULAR DESIGNS, ILLUMINATING THE WEAKNESSES AND ENHANCING THEIR ADVANTAGES BY APPLYING OUR EXPERTISE AND STATE OF THE ART CARDS/CAM PROCESSES. THE RESULT IS A BEST IN CLASS DEFENSIVE PISTOL THAT BOTH EXTREME RELIABILITY AND ACCURACY ALONG WITH A COMPETITIVE PRICE",
+	"serialNumber": "234567098765",
+	"caliber": "9 x 19 mm",
+	"length": "180 mm // 7.0 inches",
+	"height": "128 mm // 5.0 inches",
+	"width": "30 mm // 1.18 inches",
+	"barrelLength": "102 mm // 4.0 inches",
+	"weight": "545 g // 19.2 oz",
+	"weightWithMag": "628 g // 22.2 oz",
+	"frame": "Polymer // Black color",
+	"slide": "Nitrocarburized steel // Graphite black color",
+	"slights": "Low profile steel sights",
+	"firingPinSafety": "Standard",
+	"triggerSafety": "Standard",
+	"ambidextrousManualSafety": "Optional",
+	"ipfsImageHash": "QmRxSiJ5mysPFm3nkfxihg5A1LT68P4VfiUCRXZ5RhFFsp"
+}

@@ -1,0 +1,57 @@
+{
+	"private": true,
+	"name": "@caurihub/hammer",
+	"description": "A TypeScript Test script to fill the blockchain with data",
+	"homepage": "https://docs.caurihub.com/",
+	"bugs": {
+		"url": "https://github.com/caurihub/examples/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caurihub/examples.git"
+	},
+	"keywords": [
+		"caurihub",
+		"cauri",
+		"core",
+		"sdk",
+		"nft",
+		"blockchain",
+		"test",
+		"script"
+	],
+	"contributors": [
+    "Arsel Tindo <tindo@cauri.cm>",
+		"Žan Kovač <zan@protokol.com>",
+		"Kristjan Košič <kristjan@protokol.com>"
+	],
+	"license": "CC-BY-NC-SA-4.0",
+	"files": [
+		"/dist"
+	],
+	"main": "dist/index",
+	"types": "dist/index",
+	"scripts": {
+		"build": "yarn clean && tsc",
+		"build:watch": "yarn build -w",
+		"clean": "rimraf .coverage dist tmp"
+	},
+	"dependencies": {
+		"@caurihub/client": "1.0.1",
+		"@caurihub/nft-base-crypto": "1.0.3",
+		"@caurihub/nft-exchange-crypto": "1.0.3",
+		"@cauriland/crypto": "^3.2.0",
+		"bip39": "^3.0.4",
+		"chalk": "^4.1.1",
+		"delay": "^5.0.0",
+		"faker": "^5.5.3"
+	},
+	"devDependencies": {
+		"@types/faker": "^5.5.1",
+		"rimraf": "^3.0.2",
+		"typescript": "~4.4.2"
+	},
+	"engines": {
+		"node": ">=10.x"
+	}
+}

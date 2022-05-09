@@ -1,0 +1,27 @@
+{
+	"name": "AVI REF. 765 1953 RE-EDITION",
+	"description": "AVI REF. 765 1953 RE-EDITION celebrates the Co-Pilot Ref. 765 AVI introduced in 1953.",
+	"modelName": "AB0920131B1X1",
+	"identificationNumber": 66345435345,
+	"caseNumber": 105,
+	"dateOfPurchase": "2020-01-13",
+	"technicalData": {
+		"movement": {
+			"caliber": "Breitling B09 (Manufacture)",
+			"movement": "Mechanical hand-wound",
+			"powerReserve": "approx. 70 hrs",
+			"chronograph": "1/5th second, 15 minutes, 12 hours",
+			"vibration": "28,800 v.p.h",
+			"jewel": "39 jewels"
+		},
+		"case": {
+			"caseback": "Screwed in",
+			"waterResistance": "3 bars",
+			"bezel": "Bidirectional",
+			"crown": "Non screw-locked, one gasket"
+		},
+		"strap": {
+			"lug": "22/18 mm"
+		}
+	}
+}

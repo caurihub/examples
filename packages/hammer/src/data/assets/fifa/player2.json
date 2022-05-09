@@ -1,0 +1,49 @@
+{
+	"name": "Lionel Messi",
+	"nation": "Argentina",
+	"league": "LaLiga Santander",
+	"club": "FC Barcelona",
+	"stats": {
+		"physical": {
+			"acceleration": 92,
+			"sprintSpeed": 80,
+			"agility": 91,
+			"balance": 96,
+			"jumping": 69,
+			"stamina": 73,
+			"strength": 70,
+			"reactions": 94
+		},
+		"mental": {
+			"aggression": 44,
+			"interceptions": 41,
+			"attackPos": 90,
+			"vision": 97
+		},
+		"technical": {
+			"ballControl": 97,
+			"crossing": 71,
+			"dribbling": 85,
+			"finishing": 90,
+			"FKAcc": 59,
+			"headingAcc": 80,
+			"longPassing": 80,
+			"defAwareness": 40,
+			"shotPower": 87,
+			"shortPassing": 80,
+			"longShots": 79,
+			"standTackle": 20,
+			"slideTackle": 19,
+			"volleys": 88,
+			"curve": 72,
+			"penalties": 79
+		},
+		"goalkeeping": {
+			"GKDiving": 0,
+			"GKHandling": 0,
+			"GKKicking": 0,
+			"GKReflexes": 0,
+			"GKPositioning": 0
+		}
+	}
+}

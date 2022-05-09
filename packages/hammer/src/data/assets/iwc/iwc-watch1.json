@@ -1,0 +1,25 @@
+{
+	"name": "PORTOFINO HAND-WOUND TOURBILLON RETROGRADE",
+	"description": "18 ct 5N gold case, Manual-winding, Diameter 45.0 mm. Made in Schaffhausen, Switzerland.",
+	"modelName": "IW516501",
+	"chf": "62 000",
+	"dateOfPurchase": "2018-02-29",
+	"technicalData": {
+		"movement": {
+			"caliber": "59900 Calibre",
+			"movement": "IWC-manufactured movement",
+			"otherInformation": "Manual-winding, 192 hours Power Reserve, Frequency 28800.0 vph (4.0 hz), 315 Components, 38 Jewels, Cotes de Geneve, perlage"
+		},
+		"case": "18 ct 5N gold case, Diameter 45.0 mm, Height 14.0 mm, See-through sapphire glass back, Water resistance 3 bar",
+		"dial": "Silver-plated dial",
+		"strap": "Dark brown alligator leather strap by Santoni, Strap width 22 mm",
+		"features": [
+			"Flying minute tourbillon",
+			"Hacking tourbillon mechanism",
+			"8 days power reserve",
+			"Retrograde date display",
+			"Power reserve display",
+			"Sapphire glass, arched-edge, antireflective coating on both sides"
+		]
+	}
+}

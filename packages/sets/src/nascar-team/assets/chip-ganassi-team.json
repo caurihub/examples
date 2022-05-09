@@ -1,0 +1,21 @@
+{
+	"teamName": "CHIP GANASSI RACING TEAM",
+	"description": "Chip Ganassi Racing has been fielding entries in NASCAR since 1989. As a team, they have a total of 24 wins in the Cup Series and 22 in the Xfinity Series. Car numbers they have run include the 1, 40, 41, & 42. Notable drivers that have run under the team's banner include Kyle Petty, Joe Nemechek, Jimmy Spencer, Jamie McMurray, Sterling Marlin and Juan Pablo Montoya. Owner Chip Ganassi also has a full-time IndyCar team which has won the Indy 500 four times.",
+	"carType": "Chevrolet",
+	"drivers": [
+		{
+			"name": "Kurt Busch",
+			"number": 1,
+			"ipfsHashImage": "QmfQnYn2MyKksuPfckWfhGZN9wo1ygFydnwKBh3p6qzoHb"
+		},
+		{
+			"name": "Matt Kenseth",
+			"number": 42,
+			"ipfsHashImage": "QmbZRGF6xZCD3X5USAp1fyxDeqVXp6a6EiGCRGRUdQaMh3"
+		}
+	],
+	"teamOwner": "Chip Ganassi",
+	"headquarters": "Concord , North Carolina",
+	"website": "http://www.chipganassiracing.com/",
+	"ipfsHashImage": "QmbmD1qZVvybm5bhEHkzdLjXRRAtnhh7bhh9gRmbqHC51k"
+}

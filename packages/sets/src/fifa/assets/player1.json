@@ -1,0 +1,49 @@
+{
+	"name": "Timo Werner",
+	"nation": "Germany",
+	"league": "Premier League",
+	"club": "Chelsea",
+	"stats": {
+		"physical": {
+			"acceleration": 94,
+			"sprintSpeed": 89,
+			"agility": 83,
+			"balance": 76,
+			"jumping": 76,
+			"stamina": 84,
+			"strength": 67,
+			"reactions": 88
+		},
+		"mental": {
+			"aggression": 63,
+			"interceptions": 38,
+			"attackPos": 90,
+			"vision": 66
+		},
+		"technical": {
+			"ballControl": 86,
+			"crossing": 71,
+			"dribbling": 85,
+			"finishing": 90,
+			"FKAcc": 59,
+			"headingAcc": 80,
+			"longPassing": 80,
+			"defAwareness": 40,
+			"shotPower": 87,
+			"shortPassing": 80,
+			"longShots": 79,
+			"standTackle": 20,
+			"slideTackle": 19,
+			"volleys": 88,
+			"curve": 72,
+			"penalties": 79
+		},
+		"goalkeeping": {
+			"GKDiving": 0,
+			"GKHandling": 0,
+			"GKKicking": 0,
+			"GKReflexes": 0,
+			"GKPositioning": 0
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"name": "Christiano Ronaldo dos Santos Aveiro",
+	"nation": "Portugal",
+	"league": "Serie A TIM",
+	"club": "Piemonte Calcio",
+	"stats": {
+		"physical": {
+			"acceleration": 87,
+			"sprintSpeed": 91,
+			"agility": 87,
+			"balance": 71,
+			"jumping": 95,
+			"stamina": 84,
+			"strength": 78,
+			"reactions": 95
+		},
+		"mental": {
+			"aggression": 63,
+			"interceptions": 29,
+			"attackPos": 95,
+			"vision": 82
+		},
+		"technical": {
+			"ballControl": 92,
+			"crossing": 84,
+			"dribbling": 88,
+			"finishing": 95,
+			"FKAcc": 76,
+			"headingAcc": 90,
+			"longPassing": 77,
+			"shortPassing": 82,
+			"defAwareness": 28,
+			"shotPower": 94,
+			"longShots": 93,
+			"standTackle": 32,
+			"slideTackle": 24,
+			"volleys": 86,
+			"curve": 81,
+			"penalties": 84
+		},
+		"goalkeeping": {
+			"GKDiving": 7,
+			"GKHandling": 11,
+			"GKKicking": 15,
+			"GKReflexes": 11,
+			"GKPositioning": 14
+		}
+	}
+}

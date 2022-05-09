@@ -1,0 +1,28 @@
+{
+	"name": "CHRONOMAT AUTOMATIC 36",
+	"description": "Stylish yet elegant, the modern-retro inspired Chronomat Automatic 36 is the versatile sporty and chic watch for any occasion.",
+	"modelName": "A10380101A2A1",
+	"identificationNumber": 12312312312231,
+	"caseNumber": 15,
+	"dateOfPurchase": "2019-03-26",
+	"technicalData": {
+		"movement": {
+			"caliber": "Breitling 10",
+			"movement": "self-winding mechanical",
+			"powerReserve": "approx. 42 hours",
+			"vibration": "28,800 v.p.h",
+			"jewel": "25 jewels",
+			"calendar": "Dial aperture"
+		},
+		"case": {
+			"caseback": "Screwed in",
+			"waterResistance": "100 m (330 ft)",
+			"bezel": "Unidirectional, ratcheted",
+			"crown": "Non screw-locked, two gaskets",
+			"crystal": "Cambered sapphire, glareproofed both sides"
+		},
+		"strap": {
+			"lug": "18/16 mm"
+		}
+	}
+}

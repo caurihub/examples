@@ -1,0 +1,16 @@
+{
+	"teamName": "GAUNT BROTHERS RACING TEAM",
+	"description": "Gaunt Brothers Racing will be running the full 2020 season for the first time in the organization's history. The team debuted in 2017 at the DAYTONA 500 with D.J. Kennington behind the wheel. The next season they rotated through numerous drivers but were able to race almost the entire schedule. This season, with Daniel Suarez behind the wheel, the organization eyes its first victory.",
+	"carType": "Toyota",
+	"drivers": [
+		{
+			"name": "Daniel Suarez",
+			"number": 96,
+			"ipfsHashImage": "QmcCkQDSad8AW1UehDo4Lemy8bg6HYMqBpKwY4cyz74ixY"
+		}
+	],
+	"teamOwner": "Marty Gaunt",
+	"headquarters": "Mooresville , NC",
+	"website": "https://www.gauntbrothersracing.com/",
+	"ipfsHashImage": "Qme9XgkNEVg11ULZeKNVYcbgMnZxq6JshuNaCvNbcszpWq"
+}

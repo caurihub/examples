@@ -1,0 +1,30 @@
+{
+	"name": "ENDURANCE PRO",
+	"description": "Designed to be both a lightweight watch for athletes and a casual, everyday sports chronograph, the Endurance Pro perfectly blends high precision & innovative technology with a vibrant & colorful design. It is the ultimate athleisure watch.",
+	"modelName": "X82310D51B1S1",
+	"identificationNumber": 8023128430942322000,
+	"caseNumber": 10,
+	"dateOfPurchase": "2018-02-29",
+	"technicalData": {
+		"movement": {
+			"caliber": "Breitling 82",
+			"movement": "Thermocompensated SuperQuartz",
+			"chronograph": "1/10th second, 30 minutes",
+			"calendar": "Dial aperture"
+		},
+		"case": {
+			"caseback": "With screws",
+			"batteryType": "395/ 3-4 years",
+			"waterResistance": "100 m (330 ft)",
+			"bezel": "Bidirectional, compass scale",
+			"crown": "Non screw-locked, two gaskets",
+			"crystal": "Sapphire, glareproofed both sides"
+		},
+		"dimensions": {
+			"diameter": "44.00 mm"
+		},
+		"strap": {
+			"lug": "22/20 mm"
+		}
+	}
+}

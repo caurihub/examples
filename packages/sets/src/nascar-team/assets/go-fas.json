@@ -1,0 +1,16 @@
+{
+	"teamName": "GO FAS RACING TEAM",
+	"description": "Go FAS Racing arrived on the NASCAR scene back in 2011. They have competed in 284 races with a plethora of different drivers behind the wheel over the years. Matt DiBenedetto and Corey LaJoie are the only two drivers who have competed in the No. 32 car for the full 36-race season. The team has also fielded entries in NASCAR's Whelen Euro Series and Pinty's Series.",
+	"carType": "Ford",
+	"drivers": [
+		{
+			"name": "Corey Lajoie",
+			"number": 32,
+			"ipfsHashImage": "QmULgKQzXJbn6ZHMCEVx42T9AvPtQjpWFAfbvKHJDzxHnj"
+		}
+	],
+	"teamOwner": "Archie St. Hilaire",
+	"headquarters": "Mooresville , North Carolina",
+	"website": "https://www.gofasracing.com",
+	"ipfsHashImage": "QmaeqqpGWqZg8VzaVjdaT3QMQc7bkY5kcNiqGThdEvvbAu"
+}

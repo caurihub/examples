@@ -1,0 +1,250 @@
+{
+	"name": "Marvel Hero Detail Collection",
+	"description": "Marvel Hero Collection which shows heros attributes",
+	"maximumSupply": 10000,
+	"jsonSchema": {
+		"type": "object",
+		"additionalProperties": false,
+		"required": [
+			"id",
+			"name",
+			"description",
+			"modified",
+			"thumbnail",
+			"resourceURI",
+			"comics",
+			"series",
+			"stories",
+			"events",
+			"urls"
+		],
+		"properties": {
+			"id": {
+				"type": "number"
+			},
+			"name": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"description": {
+				"type": "string",
+				"maxLength": 1000,
+				"minLength": 1
+			},
+			"modified": {
+				"type": "string",
+				"maxLength": 60,
+				"minLength": 1
+			},
+			"thumbnail": {
+				"type": "object",
+				"required": ["path", "extension"],
+				"properties": {
+					"path": {
+						"type": "string",
+						"format": "url",
+						"maxLength": 120,
+						"minLength": 1
+					},
+					"extension": {
+						"type": "string",
+						"maxLength": 6,
+						"minLength": 1
+					}
+				}
+			},
+			"resourceURI": {
+				"type": "string",
+				"format": "url",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"comics": {
+				"type": "object",
+				"required": ["available", "collectionURI", "items"],
+				"properties": {
+					"available": {
+						"type": "number"
+					},
+					"collectionURI": {
+						"type": "string",
+						"format": "url",
+						"maxLength": 120,
+						"minLength": 1
+					},
+					"items": {
+						"type": "array",
+						"maxItems": 200,
+						"minItems": 1,
+						"additionalItems": false,
+						"uniqueItems": false,
+						"items": {
+							"type": "object",
+							"required": ["resourceURI", "name"],
+							"properties": {
+								"resourceURI": {
+									"type": "string",
+									"format": "url",
+									"maxLength": 120,
+									"minLength": 1
+								},
+								"name": {
+									"type": "string",
+									"maxLength": 120,
+									"minLength": 1
+								}
+							}
+						}
+					}
+				}
+			},
+			"series": {
+				"type": "object",
+				"required": ["available", "collectionURI", "items"],
+				"properties": {
+					"available": {
+						"type": "number"
+					},
+					"collectionURI": {
+						"type": "string",
+						"format": "url",
+						"maxLength": 120,
+						"minLength": 1
+					},
+					"items": {
+						"type": "array",
+						"maxItems": 200,
+						"minItems": 1,
+						"additionalItems": false,
+						"uniqueItems": false,
+						"items": {
+							"type": "object",
+							"required": ["resourceURI", "name"],
+							"properties": {
+								"resourceURI": {
+									"type": "string",
+									"format": "url",
+									"maxLength": 120,
+									"minLength": 1
+								},
+								"name": {
+									"type": "string",
+									"maxLength": 120,
+									"minLength": 1
+								}
+							}
+						}
+					}
+				}
+			},
+			"stories": {
+				"type": "object",
+				"required": ["available", "collectionURI", "items"],
+				"properties": {
+					"available": {
+						"type": "number"
+					},
+					"collectionURI": {
+						"type": "string",
+						"format": "url",
+						"maxLength": 120,
+						"minLength": 1
+					},
+					"items": {
+						"type": "array",
+						"maxItems": 200,
+						"minItems": 1,
+						"additionalItems": false,
+						"uniqueItems": false,
+						"items": {
+							"type": "object",
+							"required": ["resourceURI", "name", "type"],
+							"properties": {
+								"resourceURI": {
+									"type": "string",
+									"format": "url",
+									"maxLength": 120,
+									"minLength": 1
+								},
+								"name": {
+									"type": "string",
+									"maxLength": 120,
+									"minLength": 1
+								},
+								"type": {
+									"type": "string",
+									"maxLength": 60,
+									"minLength": 1
+								}
+							}
+						}
+					}
+				}
+			},
+			"events": {
+				"type": "object",
+				"required": ["available", "collectionURI", "items"],
+				"properties": {
+					"available": {
+						"type": "number"
+					},
+					"collectionURI": {
+						"type": "string",
+						"format": "url",
+						"maxLength": 120,
+						"minLength": 1
+					},
+					"items": {
+						"type": "array",
+						"maxItems": 200,
+						"minItems": 1,
+						"additionalItems": false,
+						"uniqueItems": false,
+						"items": {
+							"type": "object",
+							"required": ["resourceURI", "name"],
+							"properties": {
+								"resourceURI": {
+									"type": "string",
+									"format": "url",
+									"maxLength": 120,
+									"minLength": 1
+								},
+								"name": {
+									"type": "string",
+									"maxLength": 120,
+									"minLength": 1
+								}
+							}
+						}
+					}
+				}
+			},
+			"urls": {
+				"type": "array",
+				"maxItems": 50,
+				"minItems": 1,
+				"additionalItems": false,
+				"uniqueItems": false,
+				"items": {
+					"type": "object",
+					"required": ["type", "url"],
+					"properties": {
+						"type": {
+							"type": "string",
+							"maxLength": 120,
+							"minLength": 1
+						},
+						"url": {
+							"type": "string",
+							"format": "url",
+							"maxLength": 255,
+							"minLength": 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

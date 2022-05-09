@@ -1,0 +1,160 @@
+{
+  "core": {
+	"plugins": [
+	  {
+		"package": "@cauriland/core-logger-pino"
+	  },
+	  {
+		"package": "@cauriland/core-state"
+	  },
+	  {
+		"package": "@cauriland/core-database"
+	  },
+	  {
+		"package": "@cauriland/core-transactions"
+	  },
+	  {
+		"package": "@cauriland/core-magistrate-transactions"
+	  },
+	  {
+		"package": "@caurihub/nft-base-transactions"
+	  },
+	  {
+		"package": "@caurihub/nft-exchange-transactions"
+	  },
+	  {
+		"package": "@cauriland/core-transaction-pool"
+	  },
+	  {
+		"package": "@caurihub/guardian-transactions"
+	  },
+	  {
+		"package": "@cauriland/core-p2p",
+		"options": {
+		  "minimumNetworkReach": 3
+		}
+	  },
+	  {
+		"package": "@cauriland/core-blockchain"
+	  },
+	  {
+		"package": "@cauriland/core-api"
+	  },
+	  {
+		"package": "@caurihub/nft-base-api"
+	  },
+	  {
+		"package": "@caurihub/nft-exchange-api"
+	  },
+	  {
+		"package": "@caurihub/guardian-api"
+	  },
+	  {
+		"package": "@cauriland/core-magistrate-api"
+	  },
+	  {
+		"package": "@cauriland/core-webhooks"
+	  },
+	  {
+		"package": "@cauriland/core-forger"
+	  },
+	  {
+		"package": "@cauriland/core-snapshots"
+	  }
+	]
+  },
+  "relay": {
+	"plugins": [
+	  {
+		"package": "@cauriland/core-logger-pino"
+	  },
+	  {
+		"package": "@cauriland/core-state"
+	  },
+	  {
+		"package": "@cauriland/core-database"
+	  },
+	  {
+		"package": "@cauriland/core-transactions"
+	  },
+	  {
+		"package": "@cauriland/core-magistrate-transactions"
+	  },
+	  {
+		"package": "@caurihub/nft-base-transactions"
+	  },
+	  {
+		"package": "@caurihub/nft-exchange-transactions"
+	  },
+	  {
+		"package": "@cauriland/core-transaction-pool"
+	  },
+	  {
+		"package": "@caurihub/guardian-transactions"
+	  },
+	  {
+		"package": "@cauriland/core-p2p",
+		"options": {
+		  "minimumNetworkReach": 3
+		}
+	  },
+	  {
+		"package": "@cauriland/core-blockchain"
+	  },
+	  {
+		"package": "@cauriland/core-api"
+	  },
+	  {
+		"package": "@caurihub/nft-base-api"
+	  },
+	  {
+		"package": "@caurihub/nft-exchange-api"
+	  },
+	  {
+		"package": "@caurihub/guardian-api"
+	  },
+	  {
+		"package": "@cauriland/core-magistrate-api"
+	  },
+	  {
+		"package": "@cauriland/core-webhooks"
+	  }
+	]
+  },
+  "forger": {
+	"plugins": [
+	  {
+		"package": "@cauriland/core-logger-pino"
+	  },
+	  {
+		"package": "@cauriland/core-database"
+	  },
+	  {
+		"package": "@cauriland/core-forger"
+	  }
+	]
+  },
+  "snapshot": {
+	"plugins": [
+	  {
+		"package": "@cauriland/core-logger-pino"
+	  },
+	  {
+		"package": "@cauriland/core-snapshots"
+	  }
+	]
+  },
+  "manager": {
+	"plugins": [
+	  {
+		"package": "@cauriland/core-logger-pino"
+	  },
+	  {
+		"package": "@cauriland/core-snapshots"
+	  },
+	  {
+		"package": "@cauriland/core-manager"
+	  }
+	]
+  }
+}

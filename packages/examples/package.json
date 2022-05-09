@@ -1,0 +1,70 @@
+{
+	"private": true,
+	"name": "@caurihub/examples",
+	"description": "A TypeScript Examples Supporting CauriHub Transaction Type Functionalities",
+	"homepage": "https://docs.caurihub.com/",
+	"bugs": {
+		"url": "https://github.com/caurihub/examples/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caurihub/examples.git"
+	},
+	"keywords": [
+		"caurihub",
+		"cauri",
+		"core",
+		"sdk",
+		"nft",
+		"blockchain"
+	],
+	"contributors": [
+    "Arsel Tindo <tindo@cauri.cm>",
+		"Žan Kovač <zan@protokol.com>",
+		"Kristjan Košič <kristjan@protokol.com>"
+	],
+	"license": "CC-BY-NC-SA-4.0",
+	"files": [
+		"/dist"
+	],
+	"main": "dist/index",
+	"types": "dist/index",
+	"scripts": {
+		"build": "yarn clean && tsc",
+		"build:watch": "yarn build -w",
+		"clean": "rimraf .coverage dist tmp"
+	},
+	"dependencies": {
+		"@caurihub/client": "1.0.1",
+		"@caurihub/guardian-crypto": "1.0.0",
+		"@caurihub/nameservice-crypto": "1.0.0",
+		"@caurihub/nft-base-crypto": "1.0.3",
+		"@caurihub/nft-exchange-crypto": "1.0.3",
+		"@cauriland/crypto": "^3.2.0"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^0.8.0",
+		"@types/eslint": "^7.2.6",
+		"@types/eslint-plugin-prettier": "^3.1.0",
+		"@types/node": "^14.14.10",
+		"@types/prettier": "^2.1.5",
+		"@types/rimraf": "^3.0.0",
+		"@typescript-eslint/eslint-plugin": "^4.9.0",
+		"@typescript-eslint/parser": "^4.9.0",
+		"codecov": "^3.8.1",
+		"cross-env": "^7.0.3",
+		"eslint": "^7.14.0",
+		"eslint-config-prettier": "^6.15.0",
+		"eslint-plugin-jest": "^24.1.3",
+		"eslint-plugin-prettier": "^3.2.0",
+		"eslint-plugin-simple-import-sort": "^6.0.1",
+		"npm-check-updates": "^10.2.2",
+		"prettier": "^2.2.1",
+		"rimraf": "^3.0.2",
+		"typedoc": "~0.19.2",
+		"typescript": "~4.4.2"
+	},
+	"engines": {
+		"node": ">=10.x"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"teamName": "FRONT ROW MOTORSPORTS RACING TEAM",
+	"description": "Front Row Motorsports came into NASCAR full-time in 2005. They began part-time in 2004 as Means-Jenkins Motorsports. The team currently has a technical alliance with Roush Fenway Racing and also has received support from Ford since 2016. They fielded primarily two cars for a majority of their time in NASCAR and then were awarded the assets from BK Racing in 2018 to field a third car. They have used car numbers such as 34, 35, 36, 37, 38, and 55. They have competed in 898 Cup Series races and 75 Xfinity Series races. The team has two victories in 2013 and 2016.",
+	"carType": "Ford",
+	"drivers": [
+		{
+			"name": "Todd Gilliland",
+			"number": 38,
+			"ipfsHashImage": "QmXe8uXDAejRPop2fkSwqP3vQpwLKB3nAcoEMqFN1T3WmA"
+		},
+		{
+			"name": "Michael Mcdowell",
+			"number": 34,
+			"ipfsHashImage": "QmdaTHAMvRHHrqBymsSyvYK1mZTzHRDmFpze4BQvKP7MUU"
+		},
+		{
+			"name": "John Hunter Nemcheck",
+			"number": 38,
+			"ipfsHashImage": "QmYq8v2kCcTqDS8yJRBHPbGpSuwzUFDSWJpEKi1cLnm95X"
+		}
+	],
+	"teamOwner": "Bob Jenkins",
+	"headquarters": "Mooresville , North Carolina",
+	"website": "https://www.teamfrm.com",
+	"ipfsHashImage": "QmaRJEGpr9ZrARN9XDhxtcSQP13Gvczs4VzKTVcZcetz3G"
+}

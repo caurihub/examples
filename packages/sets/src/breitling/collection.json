@@ -1,0 +1,54 @@
+{
+	"name": "Breitling Watch Collection",
+	"description": "Breitling watch collection details",
+	"maximumSupply": 10000,
+	"jsonSchema": {
+		"type": "object",
+		"additionalProperties": false,
+		"required": ["name", "description", "modelName", "identificationNumber", "dateOfPurchase"],
+		"properties": {
+			"name": {
+				"type": "string",
+				"maxLength": 120,
+				"minLength": 1
+			},
+			"description": {
+				"type": "string",
+				"maxLength": 1000,
+				"minLength": 1
+			},
+			"modelName": {
+				"type": "string",
+				"maxLength": 50,
+				"minLength": 1
+			},
+			"identificationNumber": {
+				"type": "number"
+			},
+			"caseNumber": {
+				"type": "number"
+			},
+			"dateOfPurchase": {
+				"format": "date"
+			},
+			"technicalData": {
+				"type": "object",
+				"additionalProperties": true,
+				"properties": {
+					"movement": {
+						"type": "object"
+					},
+					"case": {
+						"type": "object"
+					},
+					"dimensions": {
+						"type": "object"
+					},
+					"strap": {
+						"type": "object"
+					}
+				}
+			}
+		}
+	}
+}
